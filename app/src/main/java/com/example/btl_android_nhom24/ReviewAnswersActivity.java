@@ -1,6 +1,5 @@
 package com.example.btl_android_nhom24;
 
-
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -17,6 +16,7 @@ public class ReviewAnswersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review_answers);
+
         listView = findViewById(R.id.listView);
 
         // Lấy danh sách câu trả lời đã chọn từ intent

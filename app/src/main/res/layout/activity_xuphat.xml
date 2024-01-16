@@ -8,28 +8,22 @@
     tools:context=".HocbienbaoActivity">
     <TextView
 
-        android:textSize="20sp"
-        android:id="@+id/texttenchitiet"
+        android:textSize="22sp"
+        android:id="@+id/texttenxuphat"
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tên:"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:textColor="@color/black"/>
-        <ImageView
-        android:id="@+id/hinhchitiet"
-            android:layout_below="@+id/texttenchitiet"
-        android:padding="10dp"
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-            android:layout_centerHorizontal="true"/>
 
     <TextView
-        android:layout_below="@+id/hinhchitiet"
+        android:layout_below="@+id/texttenxuphat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textloi"
-        android:layout_marginTop="20dp"
+        android:id="@+id/textxuphattien"
+        android:layout_marginTop="30dp"
         android:text="Phân loại:"
         android:textSize="18sp"
         android:textColor="@color/black"

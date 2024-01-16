@@ -1,6 +1,5 @@
 package com.example.btl_android_nhom24;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
